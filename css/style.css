@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #9370db;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/*Header*/
+.header {
+  margin-bottom: 40px;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section-charact {
+  margin-bottom: 40px;
+}
+
+.charact-description {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-charact-kipish {
+  display: flex;
+}
+
+.img-kipish {
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.section-charact-grechka {
+  display: flex;
+}
+
+.img-grechka {
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.section-temp {
+  margin-bottom: 40px;
+}
+
+.temp-header {
+  margin-bottom: 20px;
+}
+
+.temp-description {
+  display: flex;
+  justify-content: space-around;
+}
+
+.temp-kipish-header,
+.temp-grechka-header {
+  margin-bottom: 15px;
+}
+
+.temp-kipish-color {
+  min-height: 200px;
+  border-radius: 5px;
+  background-color: #8a2be2;
+}
+
+.temp-grechka-color {
+  min-height: 200px;
+  border-radius: 5px;
+  background-color: #8a2be2;
+}
+
+.footer-img {
+  max-height: 155px;
+  width: 100%
+}

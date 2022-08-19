@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lanr="ru">
+<html lang="ru">
 
   <head>
     <meta charset="UTF-8">
@@ -11,45 +11,73 @@
   </head>
 
   <body>
-    <header>
-      <h1>Наши кошки</h1>
-      <nav>
-        <ul>
-          <li>Смешные видео</li>
-          <li>Фото Кипиш</li>
-          <li>Фото Гречки</li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="header-container container">
+        <h1 class="header-container-header">"Наши кошки"</h1>
+        <nav class="header-container-nav">
+          <ul class="header-container-nav-list">
+            <li class="list-item-nav"><a href="">Смешные видео</a></li>
+            <li class="list-item-nav"><a href="">Фото Кипиш</a></li>
+            <li class="list-item-nav"><a href="">Фото Гречки</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main>
-      <section>
-          <h2>Краткие характеристики</h2>
-          <div>
-            <img src="" alt="Фото Кипиш">
-            <ul>
-              <li>Имя: Кипиш</li>
-              <li>Возраст: 2 года</li>
-              <li>Вес: 4 килограмма</li>
-              <li>Порода: Метис</li>
-              <li>Вид: КошкаБес</li>
-            </ul>
+    <main class="main">
+      <section class="section-charact">
+        <div class="container charact-container">
+          <h2 class="charact-header">Краткие характеристики</h2>
+          <div class="charact-description">
+            <div class="section-charact-kipish">
+              <img src="/img/kipish.jpg" alt="Фото Кипиш" class="img-kipish" style="width: 200px;">
+              <ul class="charact-list">
+                <li class="charact-list-item">Имя: Кипиш</li>
+                <li class="charact-list-item">Вид: КошкаБес</li>
+                <li class="charact-list-item">Порода: Метис</li>
+                <li class="charact-list-item">Возраст: 2 года</li>
+                <li class="charact-list-item">Вес: 3.2 килограмма</li>
+              </ul>
+            </div>
+            <div class="section-charact-grechka">
+              <img src="/img/grechka.jpg" alt="Фото Гречки" class="img-grechka" style="width: 200px;">
+              <ul class="charact-list">
+                <li class="charact-list-item">Имя: Гречка</li>
+                <li class="charact-list-item">Вид: КошкаБес</li>
+                <li class="charact-list-item">Порода: Метис</li>
+                <li class="charact-list-item">Возраст: 2 года</li>
+                <li class="charact-list-item">Вес: 3 килограмма</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <img src="" alt="Фото Гречки">
-            <ul>
-              <li>Имя: Гречка</li>
-              <li>Возраст: 2 года</li>
-              <li>Вес: 3.5 килограмма</li>
-              <li>Порода: Метис</li>
-              <li>Вид: КошкаБес</li>
-            </ul>
+        </div>
+      </section>
+
+      <section class="section-temp">
+        <div class="container">
+          <h2 class="temp-header">Темперамент кошек</h2>
+          <div class="temp-description">
+            <div class="temp-kipish">
+              <h3 class="temp-kipish-header">Кипиш</h3>
+              <div class="temp-kipish-color">
+              Всегда наводит кипиш
+              </div>
+            </div>
+            <div class="temp-grechka">
+              <h3 class="temp-grechka-header">Гречка</h3>
+              <div class="temp-grechka-color">
+              Всегда заводит кипиш
+              </div>
+            </div>
           </div>
+        </div>
       </section>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+      <div class="container">
+        <img src="/img/dubleCat.jpg" alt="двойные кошки" class="footer-img">
+      </div>
     </footer>
 
   </body>
